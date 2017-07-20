@@ -1,0 +1,34 @@
+/*Busra Arslan*/
+/*131044021   */
+/*HW-6        */
+
+
+//sharedMemory ve messageQueue yapilmistir.
+
+//ftok  //arastirilan kaynak : http://pubs.opengroup.org/onlinepubs/009695399/functions/ftok.html
+//shmget() ve shmat()  sharedMemory icin //kaynak: http://www.csl.mtu.edu/cs4411.ck/www/NOTES/process/shm/shmget.html
+
+//Dir Dir arasi sharedMemory kullanildi. fifo kaldirilmistir.
+//sharedMemory icin bu kaynaktaki örnek fonksiyonlar ve kitabin kodlari incelendi.
+//http://stackoverflow.com/questions/16165562/c-semaphores-and-shared-memory-action-counter
+
+//Dir File arasi messageQueue yapildi. //pipe kaldirilmistir.
+//messageQueue icin su kaynaklardan yararlanilmistir.
+//http://cboard.cprogramming.com/c-programming/137834-client-server-communication-using-message-queue.html
+//http://cboard.cprogramming.com/c-programming/138391-client-server-communication-using-message-queue.html
+//Bu orneklerde server client arasindaki message iletimi bu ornekler uzerinden incelenmistir.
+//Kitabin pdfindeki 630-633. sylardaki kod incelendi messageQueue icin.
+
+//semaphore kullanilmistir.
+//Mutex kullanılmistir.
+//Thread kullanilmistir.
+//shared Memory kullanılmıştır.
+//message Queue kullanilmistir.
+
+//istenilen hersey yapilmistir.
+//total string sayisini terminalde yazmaktadir.
+//gfd.log dosyasina bulunan stringlerin row ve collumlari ile pathleri yazılmıştır.
+
+//Ctrl-C sinyali ile programdan cikilabilir.
+//timer hesabi yapilmistir.Programin calisma suresini terminale yazar.
+
