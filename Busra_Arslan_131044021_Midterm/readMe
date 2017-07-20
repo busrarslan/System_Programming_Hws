@@ -1,0 +1,14 @@
+//Büşra Arslan
+//131044021
+//Midterm
+
+//Dosya iceriklerimde t degiskeni degil x degiskeni kullandim.Zaman degeri icin.
+//Argüman Girişi >>>>>>>>>>  Önlerine “-” işareti almadan çalışıyor.  
+
+
+//Yararlanilan Kaynaklar
+ //signal icin kaynak:http://www.csl.mtu.edu/cs4411.choi/www/Resource/signal.pdf
+ ///integralformulunde su siteden yararlanildi.Ve trapezoidal yöntemi kullanildi:*/
+//http://www.codewithc.com/c-program-for-trapezoidal-method/
+//clock_gettime fonksiyonu icin kitaptaki koddan yararlanildi.
+//http://www.qnx.com/developers/docs/6.3.2/neutrino/lib_ref/c/clock_gettime.html
