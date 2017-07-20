@@ -1,0 +1,35 @@
+/*Busra Arslan*/
+/*131044021   */
+/*HW-5        */
+
+//Description:
+//pthread_create()  ve pthread_join() fonksiyonlari icin ders kitabinin kodlarindan faydalanildi.
+//Bir onceki odevde threadle birden fazla isi ayni anda uygulamayi sagladik.
+//Bir process icinde birden fazla islemin gerceklesmesi islemini yaptik.
+//Bu odevde de iki farkli thread tam olarak ayni anda, ayni degişkene erisirse diye de mutex kullandik.
+//Mutexde LOCK VE UNLOCK kontrolleri gerceklestirilmistir. 
+//Yani threadler arasi senkronizayonu saglayarak "collision" durumunu onlemeye calistik.
+
+
+//Mutex yapildi.
+//Hem directory hem filelar icin tek fifo kullanildi.
+//Bu fifoyu acma ve okuma islem mainde gerceklestirdi. Hem directory hem de filelar icin
+//ortak fifo olarak kullanildi. Bu yuzden ekstra pipe baglantisina gerek olmadi.
+//Dosyalar arasi baglantida fifo okuma ve yazma islemleri recursive fonksiyonda yapildi.
+//Total string sayisini aktarma isinde kullanildi.Her gelen filedak string sayisi total
+//global degiskeninde toplandi.
+
+
+//Directoryler icin fork yapildi.
+
+//CTRL-C sinyali recursive yapilan fonksiyonda cagrildi .Signal yakalandigi an program 
+//2 snlik surede cikis yapar.
+//signal icin kaynak:http://www.csl.mtu.edu/cs4411.choi/www/Resource/signal.pdf
+//kaynaktan yararlanildi.
+
+//Timer yapildi. Program baslama ve bitisi arasindaki sure hesaplanip terminale yazildi.
+
+//Sonuclar gfd.log dosyasina yazdirilmistir.
+
+//Memory leak hatasi yoktur.
+//Daha aciklayici olmasi icin SCREENSHOTlar dosyaya eklenmistir.
