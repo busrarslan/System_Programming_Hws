@@ -1,0 +1,18 @@
+/*Busra Arslan*/
+/*131044021   */
+/*HW-3        */
+//Pipe and Fifo//
+
+//Description:
+//Fİle mi directory'mu diye bakiliyor.Hepsine fork() yapiliyor.
+//CTRL-C komutu gelince signal fonksiyonu bekleme (sleep(3)) suresine gore 
+//bekleyip fifo ve pipelari kapatıp programi sonlandiriyor.
+//Ekrana fifo ve pipe'lari kapattim yazisi yazip cikiyor.
+//Diger ilk odevlere ek olarak burda fifo ve pipe eklemeleri yaptik.
+//Diger algoritma kismi okudugu fie icinde aranan string sayisinin kac kere gectigini
+//bulmak. bunu her file icin aranan stringin kac kere gectigini ekrana ve 
+//"gfd.log" output dosyasina yaziyor.Ve terminale de yaziyor. Ayrıca tum filelarda buldugu 
+//strng sayisini da dosyaya ve consola yaziyor.
+//No memory leak . Memory leak testi yapilmistir.
+//Tum dosyalarin girdigi yollar yazdirildi. 
+//3 sn bekledikten sonra program kapaniyor. ctrl-c den sonra.
