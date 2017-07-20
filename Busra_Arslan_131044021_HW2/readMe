@@ -1,0 +1,15 @@
+/*Busra Arslan*/
+/*131044021   */
+/*HW-2        */
+
+/*Description:                                                           */
+/*https://gist.github.com/semihozkoroglu/737691  adresinden yaralanildi. */
+/* DirWalk fonksiyonunun calisma sekli icin.                             */
+/*DirWalk fonksiyonum arguman olarak girilen ilk dosyadan baslayarak tum */
+/*dosyalara bakmaktadir. her dosya icin aranan string sayisi ayri ayri   */
+/* dosyaya ve console'a yazilir. Console'a en son tum dosyalarda gecen   */
+/*aranan string sayisi da basilir.                                       */
+/*memory leak kontrolu yapilmis ve no memory leak sonucu alinmistir.     */
+/*Directory icerisindeki her turlu uzantili dosyanin okumasi yapilip     */
+/*aranan string bulunmaktadir. Screenshot dosyanin icindedir. Program    */
+/*istenildigi sekilde tam olarak calismaktadir                           */
