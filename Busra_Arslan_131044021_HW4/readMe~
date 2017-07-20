@@ -1,0 +1,21 @@
+/*Busra Arslan*/
+/*131044021   */
+/*HW-4        */
+
+
+//Description:
+//pthread_create()  ve pthread_join() fonksiyonlari icin ders kitabinin kodlarindan faydalanildi.
+//bu odevde file<->file arasi yapilan fork yerine thread kullanildi.
+//ayrica file<->file arasi pipe yapilarak haberlesme senkronizasyonunu saglamis oluyorum.
+// dir<->dir arasi fifo ve fork yapildi.
+//CTRL-C sinyali recursive yapilan fonksiyonda cagrildi .Signal yakalandigi an program sleep(2) surede 
+//cikis yapar.
+//signal icin kaynak:http://www.csl.mtu.edu/cs4411.choi/www/Resource/signal.pdf
+
+//BU odevde dir dir arasi icin fifo ve fork kullanildi.
+
+
+//Ctrl_c sinyali 2 sn bekletir program basladiginda.
+//program bu sinyali gorurse programi bitirir.
+
+//Tİmer hesaplamasi yapilmistir.
