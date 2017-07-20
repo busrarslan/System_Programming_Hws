@@ -1,0 +1,15 @@
+/*  Description:  Program 3 arguman alarak görevine basliyor.                     */
+/*Girilen filename.xxx (istenilen uzantili) dosyayi okuyarak yine arguman         */
+/*olarak alinan aranacak stringi okudugu dosyanin icinde ariyor bunları mallocla  */
+/*yer aldigi tek boyutlu str stringine atiyor. '\n' kontrolu ile row ve col bulma */
+/* isini yapabiliyor. Bu yuzden iki boyutlu str tutmadim. Ekrana                  */
+/*kac tane buldugunu basiyor. Bu buldugu yerlerin row ve col larini da            */
+/*"gff.log" dosyasinin icine 1.,2.,3.,...... row: col: u biciminde yaziyor.       */
+/*İstenildigi gibi; eger "gff.log" output dosyamiz silinmedigi surece             */
+/*her calistirmada uzerine yaziyor. Eger dosya silinirse en bastan acip yaziyor.  */
+/*Memory leak dahil diger hatalari olup olmadigi denenmistir. Buyuk size          */
+/*degerli dosyalarda da calismaktadir. Tum gorevler sorunsuz gerceklesmektedir    */
+
+/* row ve column 1' den baslatildi                                                */
+
+/*Ekrana ilk buldugu row ve col'lari daha sonra kac tane buldugunu basiyor.       */
